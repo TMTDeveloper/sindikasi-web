@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'sindikasi' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'hambali' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'lbhjkt321' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );

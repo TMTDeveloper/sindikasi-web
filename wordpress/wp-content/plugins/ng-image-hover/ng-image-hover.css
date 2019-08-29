@@ -1,0 +1,30 @@
+.ng-image-hover {
+    display: inline-block;
+    position: relative;
+}
+
+.ng-image-hover img {
+    cursor: pointer;
+}
+
+.ng-image-hover:hover .ng-image-hover-text {
+    display: block; /* Display the text */
+}
+
+.ng-image-hover-text {
+    background: white;
+    border: 1px solid #d2d2d2;
+    -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    display: none;  /* Hide the text */
+    width: 400px;
+    max-height: 100%;
+    overflow-y: scroll;
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+/*# sourceMappingURL=ng-image-hover.css.map */
